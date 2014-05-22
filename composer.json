@@ -1,0 +1,46 @@
+{
+    "name": "flexishore/codemirror",
+    "description": "Magento module that adds CodeMirror plugin to TinyMCE editor in admin panel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Jentzema",
+            "email": "rob@wellnessbon.nl"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+       "magento-hackathon/magento-composer-installer":"*"
+    },
+    "extra": {
+        "map": [
+            ["/app/code/local/Flexishore/Codemirror", "/app/code/local/Flexishore/Codemirror"]
+            , ["/app/etc/modules/Flexishore_Codemirror.xml", "/app/etc/modules/Flexishore_Codemirror.xml"]
+            , ["/js/tiny_mce/plugins/codemagic/codemagic.htm", "/js/tiny_mce/plugins/codemagic/codemagic.htm"]
+            , ["/js/tiny_mce/plugins/codemagic/css/codemirror.css", "/js/tiny_mce/plugins/codemagic/css/codemirror.css"]
+            , ["/js/tiny_mce/plugins/codemagic/css/default.css", "/js/tiny_mce/plugins/codemagic/css/default.css"]
+            , ["/js/tiny_mce/plugins/codemagic/css/style.css", "/js/tiny_mce/plugins/codemagic/css/style.css"]
+            , ["/js/tiny_mce/plugins/codemagic/editor_plugin.js", "/js/tiny_mce/plugins/codemagic/editor_plugin.js"]
+            , ["/js/tiny_mce/plugins/codemagic/editor_plugin_src.js", "/js/tiny_mce/plugins/codemagic/editor_plugin_src.js"]
+            , ["/js/tiny_mce/plugins/codemagic/img/code.png", "/js/tiny_mce/plugins/codemagic/img/code.png"]
+            , ["/js/tiny_mce/plugins/codemagic/img/icons/file.png", "/js/tiny_mce/plugins/codemagic/img/icons/file.png"]
+            , ["/js/tiny_mce/plugins/codemagic/img/icons/lens.png", "/js/tiny_mce/plugins/codemagic/img/icons/lens.png"]
+            , ["/js/tiny_mce/plugins/codemagic/img/icons/redo.png", "/js/tiny_mce/plugins/codemagic/img/icons/redo.png"]
+            , ["/js/tiny_mce/plugins/codemagic/img/icons/undo.png", "/js/tiny_mce/plugins/codemagic/img/icons/undo.png"]
+            , ["/js/tiny_mce/plugins/codemagic/js/beautify-html.js", "/js/tiny_mce/plugins/codemagic/js/beautify-html.js"]
+            , ["/js/tiny_mce/plugins/codemagic/js/beautify.js", "/js/tiny_mce/plugins/codemagic/js/beautify.js"]
+            , ["/js/tiny_mce/plugins/codemagic/js/codemagic.js", "/js/tiny_mce/plugins/codemagic/js/codemagic.js"]
+            , ["/js/tiny_mce/plugins/codemagic/js/codemirror-compressed.js", "/js/tiny_mce/plugins/codemagic/js/codemirror-compressed.js"]
+            , ["/js/tiny_mce/plugins/codemagic/langs/en.js", "/js/tiny_mce/plugins/codemagic/langs/en.js"]
+            , ["/js/tiny_mce/plugins/codemagic/langs/en_dlg.js", "/js/tiny_mce/plugins/codemagic/langs/en_dlg.js"]
+
+       ]
+    }
+
+}
